@@ -16,7 +16,7 @@ int ThirdNum(int num)
     }
     return num % 10;
 }
-if (number < 100)
+if (number < 100 && number > -100)
 {
     Console.WriteLine($"Третьей цифры у числа нет");
 }
