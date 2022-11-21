@@ -18,6 +18,7 @@ int numDay = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Сегодня выходной день");
     }
     else
+    if (numDay > 7)
     {
         Console.WriteLine("В неделе 7 дней! Вы ввели некорректную цифру, попробуйте еще раз.");
     }
